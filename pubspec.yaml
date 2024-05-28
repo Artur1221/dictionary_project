@@ -1,0 +1,28 @@
+name: dictionary_project
+description: "Приложение, созданное для упрощения изучения разработки нормативно-технической документации."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  xml: ^6.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - file.xml
+  uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: book.png
+
